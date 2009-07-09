@@ -11,6 +11,14 @@
         a:hover { color: #444; }
       img#forkme { position: absolute; top: 0; left: 0; border: 0; }
       #container { width: 100%; text-align: center; margin: 60px 0; }
+      #github-badge { width: 220px; overflow: none; float: left; align: left; text-align: left; position: absolute; top: 50px; right: 5px;}
+      #github-badge .repos .public { background-color: #fff; border: 0px;}
+      #github-badge .repos .public a { background-color: #fff; }
+      #github-badge a { color: #777; font-weight: normal; font-family: 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif; font-size: 15px;}
+      #github-badge a:visited { color: #777; }
+      #github-badge a:hover { color: #444; }
+      #github-badge div.header { display: none; }
+      #github-badge .footer { display: none; }
     </style>
   </head>
   <body>
@@ -19,6 +27,14 @@
       <img src="smartsheep.png" alt="oh, hai." title="oh, hai" style="border: 1px solid #CECECE;"/>
       <h1>oh, hai.</h1>
     <a href="http://github.com/slideinc">code</a> | <a href="http://twitter.com/slideinc">tweet</a> | <a href="http://www.slide.com">visit</a>
+    <!-- GITHUB BADGE -->
+    <div id="github-badge"></div>
+    <script type="text/javascript" charset="utf-8">
+      GITHUB_USERNAME = "slideinc";
+      GITHUB_TITLE = "Projects";
+    </script>
+    <script src="http://drnic.github.com/github-badges/dist/github-badge-launcher.js" type="text/javascript"></script>
+    <!-- END GITHUB BADGE -->
     <br/>
     <br/>
     <strong style="color: #333;">we like:</strong>
